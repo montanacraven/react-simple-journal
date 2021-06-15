@@ -33,13 +33,11 @@ function MainContent(): JSX.Element {
           Being creative... I'd like to do more of it. I'll write some haikus!
         </p>
         <h4>Stats</h4>
-        <ul>
-          <li>Views: 93</li>
-          <li>Likes: 11</li>
-        </ul>
-        <p>
-          <small>Posted: March 2, 2003</small>
-        </p>
+        <JournalEntry
+        views={93}
+        likes={2000}
+        postDate={{ month: "March", day: 2, year: 2003 }}
+      />
       </section>
       <section>
         <h2>The trolley problem</h2>
