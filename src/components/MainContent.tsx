@@ -34,7 +34,7 @@ function MainContent(): JSX.Element {
         </p>
         <h4>Stats</h4>
         <JournalEntry
-        views={93}
+        views={20000}
         likes={2000}
         postDate={{ month: "March", day: 2, year: 2003 }}
       />
