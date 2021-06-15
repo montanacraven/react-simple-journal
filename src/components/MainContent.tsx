@@ -36,7 +36,7 @@ function MainContent(): JSX.Element {
         <JournalEntry
         views={24000}
         likes={2000}
-        postDate={{ month: "March", day: 2, year: 2003 }}
+        postDate={{ month: "feb", day: 2, year: 2003 }}
       />
       </section>
       <section>
